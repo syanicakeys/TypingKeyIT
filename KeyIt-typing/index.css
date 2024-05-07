@@ -1,0 +1,139 @@
+:root{
+    --primaryColor: #4F2770;
+    --secondaryColor: #efe9e7;
+    --textColor: #fff;
+}
+
+body{
+    background-color: #4F2770;  
+}
+
+#stars{
+position: absolute;
+background: url(stars.png);
+background-size: cover;
+width: 100%;
+height: 100%;
+z-index: -1;
+top: 0px;
+left: 0px;
+}
+
+
+.title{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    font-size: 25vh;
+    font-family: "Press Start 2P";
+    color: var(--textColor);
+}
+
+
+#footer{
+position: fixed;
+background: url(footer.png);
+background-size: cover;
+width: 100%;
+height: 15%;
+top: 85%;
+right: 0%;
+}
+
+#buttonContainer{
+    width: 50%;
+    height: 25%;
+    margin-top: 5vh;
+}
+
+#startButton{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameButton{
+    display: none;
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press start 2P";
+    color: var(--textColor);
+    background: url(startButton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 10vh;
+}
+
+#start:hover{
+    background: url(startClicked.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+
+#mercy{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press start 2P";
+    color: var(--textColor);
+    background: url(mercyButton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 10vh;
+    vertical-align: center;
+}
+#mercy:hover{
+    background: url(mercyClicked.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 10vh;
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+
+#endless{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-family: "Press start 2P";
+    color: var(--textColor);
+    background: url(endlessButton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 10vh;
+}
+#endless:hover{
+    background: url(endlessClicked.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 10vh;
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+
+
+h1{
+    margin: 0;
+    font-size: 3vh;
+}
+
+
+
+
+
